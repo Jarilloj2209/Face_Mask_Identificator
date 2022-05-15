@@ -22,7 +22,7 @@ function showCamera() {
   var options = {
     audio: false,
     video: {
-      facingMode: "user",
+      facingMode: { exact: "environment" },
       width: size,
       height: size,
     },
